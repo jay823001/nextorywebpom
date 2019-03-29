@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For SilverSubscription Starts........]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Silversubscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forSilver]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For GuldSubscription Starts........]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Guldsubscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forGuld]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For Familj 2Subscription Starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Familj 2subscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forFamilj 2]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For Familj 3Subscription Starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Familj 3subscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forFamilj 3]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For Familj 4Subscription Starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Familj 4subscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forFamilj 4]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For SilverSubscription Starts........]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Silversubscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forSilver]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For GuldSubscription Starts........]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Guldsubscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forGuld]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For Familj 2Subscription Starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Familj 2subscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forFamilj 2]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For Familj 3Subscription Starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Familj 3subscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forFamilj 3]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+    <line>
+      <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+    </line>
+    <line>
+      <![CDATA[Free Trail Flow For Familj 4Subscription Starts.....]]>
+    </line>
+    <line>
+      <![CDATA[Payment Flow Starts for Familj 4subscription....]]>
+    </line>
+    <line>
+      <![CDATA[Payment flow is Completed forFamilj 4]]>
+    </line>
+    <line>
+      <![CDATA[Validation of Konto Details Started...]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="821145" started-at="2019-03-25T13:17:30Z" finished-at="2019-03-25T13:31:12Z">
+    <groups>
+      <group name="All">
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword()[pri:2, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlowSE_invalidCardNumber()[pri:6, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_invalidCardNumber" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlowSE_wrongEmail()[pri:4, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_wrongEmail" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_InvalidAccountNumber()[pri:9, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_InvalidAccountNumber" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_Payment_emptyOtp()[pri:10, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Payment_emptyOtp" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_Payment_invalidOtp()[pri:11, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Payment_invalidOtp" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_Registration_InvalidPassword()[pri:5, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Registration_InvalidPassword" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlowSE_RegistrationPage_UncheckBox()[pri:3, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlowSE_RegistrationPage_UncheckBox" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlow_InvalidCardExpiry()[pri:7, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_InvalidCardExpiry" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlow_InvalidCvv()[pri:8, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_InvalidCvv" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" class="registrationflows.FreeTrialFlow_AllCountries"/>
+      </group> <!-- All -->
+      <group name="FreeTrialFlow_SE">
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" class="registrationflows.FreeTrialFlow_AllCountries"/>
+      </group> <!-- FreeTrialFlow_SE -->
+      <group name="FreeTrialNegative_SE">
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword()[pri:2, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlowSE_invalidCardNumber()[pri:6, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_invalidCardNumber" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlowSE_wrongEmail()[pri:4, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_wrongEmail" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_InvalidAccountNumber()[pri:9, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_InvalidAccountNumber" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_Payment_emptyOtp()[pri:10, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Payment_emptyOtp" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_Payment_invalidOtp()[pri:11, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Payment_invalidOtp" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrailFlow_Registration_InvalidPassword()[pri:5, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Registration_InvalidPassword" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlowSE_RegistrationPage_UncheckBox()[pri:3, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlowSE_RegistrationPage_UncheckBox" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlow_InvalidCardExpiry()[pri:7, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_InvalidCardExpiry" class="registrationflows.FreeTrialFlow_AllCountries"/>
+        <method signature="FreeTrialFlow_AllCountries.FreeTrialFlow_InvalidCvv()[pri:8, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_InvalidCvv" class="registrationflows.FreeTrialFlow_AllCountries"/>
+      </group> <!-- FreeTrialNegative_SE -->
+    </groups>
+    <test name="Nextory" duration-ms="821145" started-at="2019-03-25T13:17:30Z" finished-at="2019-03-25T13:31:12Z">
+      <class name="registrationflows.FreeTrialFlow_AllCountries">
+        <test-method status="PASS" signature="FilltheExcel()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FilltheExcel" is-config="true" duration-ms="4330" started-at="2019-03-25T18:47:26Z" finished-at="2019-03-25T18:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilltheExcel -->
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initFramework" is-config="true" duration-ms="11" started-at="2019-03-25T18:47:30Z" finished-at="2019-03-25T18:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramework -->
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initBrowser" is-config="true" duration-ms="6" started-at="2019-03-25T18:47:30Z" finished-at="2019-03-25T18:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="16952" started-at="2019-03-25T18:47:49Z" finished-at="2019-03-25T18:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="25071" started-at="2019-03-25T18:48:06Z" data-provider="userData_SE" finished-at="2019-03-25T18:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Silver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_1_25Mar19_1847271553519847541@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Adyen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For SilverSubscription Starts........]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Silversubscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forSilver]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6461" started-at="2019-03-25T18:48:32Z" finished-at="2019-03-25T18:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14019" started-at="2019-03-25T18:48:38Z" finished-at="2019-03-25T18:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="23297" started-at="2019-03-25T18:48:52Z" data-provider="userData_SE" finished-at="2019-03-25T18:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guld]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_2_25Mar19_1847281553519848153@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Adyen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For GuldSubscription Starts........]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Guldsubscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forGuld]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6037" started-at="2019-03-25T18:49:15Z" finished-at="2019-03-25T18:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="28948" started-at="2019-03-25T18:49:21Z" finished-at="2019-03-25T18:49:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="23949" started-at="2019-03-25T18:49:50Z" data-provider="userData_SE" finished-at="2019-03-25T18:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Familj 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_3_25Mar19_1847281553519848557@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Adyen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For Familj 2Subscription Starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Familj 2subscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forFamilj 2]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6174" started-at="2019-03-25T18:50:14Z" finished-at="2019-03-25T18:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14141" started-at="2019-03-25T18:50:20Z" finished-at="2019-03-25T18:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="25444" started-at="2019-03-25T18:50:35Z" data-provider="userData_SE" finished-at="2019-03-25T18:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Familj 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_4_25Mar19_1847281553519848931@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Adyen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For Familj 3Subscription Starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Familj 3subscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forFamilj 3]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6108" started-at="2019-03-25T18:51:00Z" finished-at="2019-03-25T18:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="13509" started-at="2019-03-25T18:51:06Z" finished-at="2019-03-25T18:51:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="24948" started-at="2019-03-25T18:51:20Z" data-provider="userData_SE" finished-at="2019-03-25T18:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Familj 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_5_25Mar19_1847291553519849236@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Adyen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For Familj 4Subscription Starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Familj 4subscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forFamilj 4]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6082" started-at="2019-03-25T18:51:45Z" finished-at="2019-03-25T18:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="11144" started-at="2019-03-25T18:51:51Z" finished-at="2019-03-25T18:52:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="33150" started-at="2019-03-25T18:52:02Z" data-provider="userData_SE" finished-at="2019-03-25T18:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Silver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_6_25Mar19_1847291553519849658@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trustly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For SilverSubscription Starts........]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Silversubscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forSilver]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6097" started-at="2019-03-25T18:52:35Z" finished-at="2019-03-25T18:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14643" started-at="2019-03-25T18:52:41Z" finished-at="2019-03-25T18:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="32257" started-at="2019-03-25T18:52:56Z" data-provider="userData_SE" finished-at="2019-03-25T18:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guld]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_7_25Mar19_1847291553519849927@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trustly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For GuldSubscription Starts........]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Guldsubscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forGuld]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6151" started-at="2019-03-25T18:53:28Z" finished-at="2019-03-25T18:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="15690" started-at="2019-03-25T18:53:34Z" finished-at="2019-03-25T18:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="31906" started-at="2019-03-25T18:53:50Z" data-provider="userData_SE" finished-at="2019-03-25T18:54:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Familj 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_8_25Mar19_1847301553519850143@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trustly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For Familj 2Subscription Starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Familj 2subscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forFamilj 2]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6146" started-at="2019-03-25T18:54:22Z" finished-at="2019-03-25T18:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="13133" started-at="2019-03-25T18:54:28Z" finished-at="2019-03-25T18:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="32255" started-at="2019-03-25T18:54:41Z" data-provider="userData_SE" finished-at="2019-03-25T18:55:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Familj 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_9_25Mar19_1847301553519850371@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trustly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For Familj 3Subscription Starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Familj 3subscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forFamilj 3]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6191" started-at="2019-03-25T18:55:13Z" finished-at="2019-03-25T18:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14121" started-at="2019-03-25T18:55:19Z" finished-at="2019-03-25T18:55:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_SE(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_SE" duration-ms="35706" started-at="2019-03-25T18:55:34Z" data-provider="userData_SE" finished-at="2019-03-25T18:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Familj 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test_10_25Mar19_1847301553519850612@frescano.se]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trustly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555 4444 3333 1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Danske Bank]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registration for FreeTrailFlow in Swedish Country site Starts......]]>
+            </line>
+            <line>
+              <![CDATA[Free Trail Flow For Familj 4Subscription Starts.....]]>
+            </line>
+            <line>
+              <![CDATA[Payment Flow Starts for Familj 4subscription....]]>
+            </line>
+            <line>
+              <![CDATA[Payment flow is Completed forFamilj 4]]>
+            </line>
+            <line>
+              <![CDATA[Validation of Konto Details Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_SE -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6125" started-at="2019-03-25T18:56:09Z" finished-at="2019-03-25T18:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14158" started-at="2019-03-25T18:56:15Z" finished-at="2019-03-25T18:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword()[pri:2, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword" duration-ms="1948" started-at="2019-03-25T18:56:30Z" finished-at="2019-03-25T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6144" started-at="2019-03-25T18:56:31Z" finished-at="2019-03-25T18:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="13635" started-at="2019-03-25T18:56:38Z" finished-at="2019-03-25T18:56:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlowSE_RegistrationPage_UncheckBox()[pri:3, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlowSE_RegistrationPage_UncheckBox" duration-ms="2649" started-at="2019-03-25T18:56:51Z" finished-at="2019-03-25T18:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlowSE_RegistrationPage_UncheckBox -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6094" started-at="2019-03-25T18:56:54Z" finished-at="2019-03-25T18:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14216" started-at="2019-03-25T18:57:00Z" finished-at="2019-03-25T18:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlowSE_wrongEmail()[pri:4, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_wrongEmail" duration-ms="3078" started-at="2019-03-25T18:57:14Z" finished-at="2019-03-25T18:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlowSE_wrongEmail -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6056" started-at="2019-03-25T18:57:17Z" finished-at="2019-03-25T18:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14051" started-at="2019-03-25T18:57:23Z" finished-at="2019-03-25T18:57:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlow_Registration_InvalidPassword()[pri:5, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Registration_InvalidPassword" duration-ms="2949" started-at="2019-03-25T18:57:37Z" finished-at="2019-03-25T18:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlow_Registration_InvalidPassword -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6085" started-at="2019-03-25T18:57:40Z" finished-at="2019-03-25T18:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14120" started-at="2019-03-25T18:57:46Z" finished-at="2019-03-25T18:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlowSE_invalidCardNumber()[pri:6, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlowSE_invalidCardNumber" duration-ms="9996" started-at="2019-03-25T18:58:01Z" finished-at="2019-03-25T18:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlowSE_invalidCardNumber -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6104" started-at="2019-03-25T18:58:11Z" finished-at="2019-03-25T18:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="13728" started-at="2019-03-25T18:58:17Z" finished-at="2019-03-25T18:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_InvalidCardExpiry()[pri:7, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_InvalidCardExpiry" duration-ms="10215" started-at="2019-03-25T18:58:30Z" finished-at="2019-03-25T18:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_InvalidCardExpiry -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6059" started-at="2019-03-25T18:58:41Z" finished-at="2019-03-25T18:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="13701" started-at="2019-03-25T18:58:47Z" finished-at="2019-03-25T18:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrialFlow_InvalidCvv()[pri:8, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrialFlow_InvalidCvv" duration-ms="11107" started-at="2019-03-25T18:59:00Z" finished-at="2019-03-25T18:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrialFlow_InvalidCvv -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6043" started-at="2019-03-25T18:59:11Z" finished-at="2019-03-25T18:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="16887" started-at="2019-03-25T18:59:18Z" finished-at="2019-03-25T18:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlow_InvalidAccountNumber()[pri:9, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_InvalidAccountNumber" duration-ms="15321" started-at="2019-03-25T18:59:34Z" finished-at="2019-03-25T18:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlow_InvalidAccountNumber -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6055" started-at="2019-03-25T18:59:50Z" finished-at="2019-03-25T18:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14925" started-at="2019-03-25T18:59:56Z" finished-at="2019-03-25T19:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlow_Payment_emptyOtp()[pri:10, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Payment_emptyOtp" duration-ms="14762" started-at="2019-03-25T19:00:11Z" finished-at="2019-03-25T19:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlow_Payment_emptyOtp -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6056" started-at="2019-03-25T19:00:25Z" finished-at="2019-03-25T19:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="initApplication" is-config="true" duration-ms="14125" started-at="2019-03-25T19:00:32Z" finished-at="2019-03-25T19:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="FreeTrailFlow_Payment_invalidOtp()[pri:11, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="FreeTrailFlow_Payment_invalidOtp" duration-ms="19908" started-at="2019-03-25T19:00:46Z" finished-at="2019-03-25T19:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrailFlow_Payment_invalidOtp -->
+        <test-method status="PASS" signature="cleanApplication()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="cleanApplication" is-config="true" duration-ms="6083" started-at="2019-03-25T19:01:06Z" finished-at="2019-03-25T19:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanApplication -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-03-25T19:01:12Z" finished-at="2019-03-25T19:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:registrationflows.FreeTrialFlow_AllCountries@c46bcd4]" name="closeFramework" is-config="true" duration-ms="1" started-at="2019-03-25T19:01:12Z" finished-at="2019-03-25T19:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFramework -->
+      </class> <!-- registrationflows.FreeTrialFlow_AllCountries -->
+    </test> <!-- Nextory -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\narasimha\workspace\nextoryweb\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword">FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlowSE_invalidCardNumber">FreeTrailFlowSE_invalidCardNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlowSE_wrongEmail">FreeTrailFlowSE_wrongEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlow_InvalidAccountNumber">FreeTrailFlow_InvalidAccountNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlow_Payment_emptyOtp">FreeTrailFlow_Payment_emptyOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlow_Payment_invalidOtp">FreeTrailFlow_Payment_invalidOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrailFlow_Registration_InvalidPassword">FreeTrailFlow_Registration_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlowSE_RegistrationPage_UncheckBox">FreeTrialFlowSE_RegistrationPage_UncheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_InvalidCardExpiry">FreeTrialFlow_InvalidCardExpiry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_InvalidCvv">FreeTrialFlow_InvalidCvv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 1...)">FreeTrialFlow_SE(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 7...)">FreeTrialFlow_SE(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 7...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)">FreeTrialFlow_SE(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)">FreeTrialFlow_SE(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10,...)">FreeTrialFlow_SE(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)">FreeTrialFlow_SE(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737,...)">FreeTrialFlow_SE(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)">FreeTrialFlow_SE(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 1...)">FreeTrialFlow_SE(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="registrationflows.FreeTrialFlow_AllCountries" hash-for-method="FreeTrialFlow_SE(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)">FreeTrialFlow_SE(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">registrationflows.FreeTrialFlow_AllCountries</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword">
+                  </a> <!-- FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword -->
+                  <span class="method-name">FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlowSE_invalidCardNumber">
+                  </a> <!-- FreeTrailFlowSE_invalidCardNumber -->
+                  <span class="method-name">FreeTrailFlowSE_invalidCardNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlowSE_wrongEmail">
+                  </a> <!-- FreeTrailFlowSE_wrongEmail -->
+                  <span class="method-name">FreeTrailFlowSE_wrongEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlow_InvalidAccountNumber">
+                  </a> <!-- FreeTrailFlow_InvalidAccountNumber -->
+                  <span class="method-name">FreeTrailFlow_InvalidAccountNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlow_Payment_emptyOtp">
+                  </a> <!-- FreeTrailFlow_Payment_emptyOtp -->
+                  <span class="method-name">FreeTrailFlow_Payment_emptyOtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlow_Payment_invalidOtp">
+                  </a> <!-- FreeTrailFlow_Payment_invalidOtp -->
+                  <span class="method-name">FreeTrailFlow_Payment_invalidOtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrailFlow_Registration_InvalidPassword">
+                  </a> <!-- FreeTrailFlow_Registration_InvalidPassword -->
+                  <span class="method-name">FreeTrailFlow_Registration_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlowSE_RegistrationPage_UncheckBox">
+                  </a> <!-- FreeTrialFlowSE_RegistrationPage_UncheckBox -->
+                  <span class="method-name">FreeTrialFlowSE_RegistrationPage_UncheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_InvalidCardExpiry">
+                  </a> <!-- FreeTrialFlow_InvalidCardExpiry -->
+                  <span class="method-name">FreeTrialFlow_InvalidCardExpiry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_InvalidCvv">
+                  </a> <!-- FreeTrialFlow_InvalidCvv -->
+                  <span class="method-name">FreeTrialFlow_InvalidCvv</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 1...)">
+                  </a> <!-- FreeTrialFlow_SE(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 1...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 7...)">
+                  </a> <!-- FreeTrialFlow_SE(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 7...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)">
+                  </a> <!-- FreeTrialFlow_SE(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)">
+                  </a> <!-- FreeTrialFlow_SE(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10,...)">
+                  </a> <!-- FreeTrialFlow_SE(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10,...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)">
+                  </a> <!-- FreeTrialFlow_SE(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737,...)">
+                  </a> <!-- FreeTrialFlow_SE(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737,...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)">
+                  </a> <!-- FreeTrialFlow_SE(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 1...)">
+                  </a> <!-- FreeTrialFlow_SE(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 1...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeTrialFlow_SE(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)">
+                  </a> <!-- FreeTrialFlow_SE(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...) -->
+                  <span class="method-name">FreeTrialFlow_SE</span>
+                  <span class="parameters">(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10, 20, Danske Bank, 1111111111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\narasimha\workspace\nextoryweb\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;common.TestNGCustomReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Nextory&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;FreeTrialFlow_SE&quot;/&gt;
+        &lt;include name=&quot;FreeTrialNegative_SE&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;registrationflows.FreeTrialFlow_AllCountries&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Nextory --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Nextory (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">All</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlowSE_invalidCardNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlowSE_wrongEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_InvalidAccountNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_Payment_emptyOtp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_Payment_invalidOtp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_Registration_InvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlowSE_RegistrationPage_UncheckBox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlow_InvalidCardExpiry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlow_InvalidCvv</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlow_SE</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">FreeTrialFlow_SE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlow_SE</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">FreeTrialNegative_SE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlowSE_invalidCardNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlowSE_wrongEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_InvalidAccountNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_Payment_emptyOtp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_Payment_invalidOtp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrailFlow_Registration_InvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlowSE_RegistrationPage_UncheckBox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlow_InvalidCardExpiry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreeTrialFlow_InvalidCvv</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FreeTrialFlow_SE')
+data.setCell(0, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(0, 3, 35706);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FreeTrialFlow_SE')
+data.setCell(1, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(1, 3, 33150);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FreeTrialFlow_SE')
+data.setCell(2, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(2, 3, 32257);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FreeTrialFlow_SE')
+data.setCell(3, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(3, 3, 32255);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'FreeTrialFlow_SE')
+data.setCell(4, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(4, 3, 31906);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'FreeTrialFlow_SE')
+data.setCell(5, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(5, 3, 25444);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FreeTrialFlow_SE')
+data.setCell(6, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(6, 3, 25071);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'FreeTrialFlow_SE')
+data.setCell(7, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(7, 3, 24948);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'FreeTrialFlow_SE')
+data.setCell(8, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(8, 3, 23949);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FreeTrialFlow_SE')
+data.setCell(9, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(9, 3, 23297);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'FreeTrailFlow_Payment_invalidOtp')
+data.setCell(10, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(10, 3, 19908);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'FreeTrailFlow_InvalidAccountNumber')
+data.setCell(11, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(11, 3, 15321);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'FreeTrailFlow_Payment_emptyOtp')
+data.setCell(12, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(12, 3, 14762);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'FreeTrialFlow_InvalidCvv')
+data.setCell(13, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(13, 3, 11107);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'FreeTrialFlow_InvalidCardExpiry')
+data.setCell(14, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(14, 3, 10215);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'FreeTrailFlowSE_invalidCardNumber')
+data.setCell(15, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(15, 3, 9996);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'FreeTrailFlowSE_wrongEmail')
+data.setCell(16, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(16, 3, 3078);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'FreeTrailFlow_Registration_InvalidPassword')
+data.setCell(17, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(17, 3, 2949);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'FreeTrialFlowSE_RegistrationPage_UncheckBox')
+data.setCell(18, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(18, 3, 2649);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword')
+data.setCell(19, 2, 'registrationflows.FreeTrialFlow_AllCountries')
+data.setCell(19, 3, 1948);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 1...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For SilverSubscription Starts........</span>
+                <span class="reporter-method-output">Payment Flow Starts for Silversubscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forSilver</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 7...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For Familj 4Subscription Starts.....</span>
+                <span class="reporter-method-output">Payment Flow Starts for Familj 4subscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forFamilj 4</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For Familj 4Subscription Starts.....</span>
+                <span class="reporter-method-output">Payment Flow Starts for Familj 4subscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forFamilj 4</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For Familj 3Subscription Starts.....</span>
+                <span class="reporter-method-output">Payment Flow Starts for Familj 3subscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forFamilj 3</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For GuldSubscription Starts........</span>
+                <span class="reporter-method-output">Payment Flow Starts for Guldsubscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forGuld</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For Familj 2Subscription Starts.....</span>
+                <span class="reporter-method-output">Payment Flow Starts for Familj 2subscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forFamilj 2</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For SilverSubscription Starts........</span>
+                <span class="reporter-method-output">Payment Flow Starts for Silversubscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forSilver</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For Familj 2Subscription Starts.....</span>
+                <span class="reporter-method-output">Payment Flow Starts for Familj 2subscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forFamilj 2</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 1...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For GuldSubscription Starts........</span>
+                <span class="reporter-method-output">Payment Flow Starts for Guldsubscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forGuld</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeTrialFlow_SE(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration for FreeTrailFlow in Swedish Country site Starts......</span>
+                <span class="reporter-method-output">Free Trail Flow For Familj 3Subscription Starts.....</span>
+                <span class="reporter-method-output">Payment Flow Starts for Familj 3subscription....</span>
+                <span class="reporter-method-output">Payment flow is Completed forFamilj 3</span>
+                <span class="reporter-method-output">Validation of Konto Details Started...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">registrationflows.FreeTrialFlow_AllCountries</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">FilltheExcel</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">initFramework</span>
+                <span class="method-start">4330 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">initBrowser(chrome)</span>
+                <span class="method-start">4341 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">23335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Silver, test_1_25Mar19_1847271553519847541@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 1...)</span>
+                <span class="method-start">40287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">65359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">71821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Guld, test_2_25Mar19_1847281553519848153@frescano.se, password, Adyen, 5555 4444 3333 1111, 737, 10,...)</span>
+                <span class="method-start">85840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">109139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">115177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Familj 2, test_3_25Mar19_1847281553519848557@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</span>
+                <span class="method-start">144125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">168075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">174250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Familj 3, test_4_25Mar19_1847281553519848931@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</span>
+                <span class="method-start">188391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">213836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">219944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Familj 4, test_5_25Mar19_1847291553519849236@frescano.se, password, Adyen, 5555 4444 3333 1111, 737,...)</span>
+                <span class="method-start">233453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">258401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">264484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Silver, test_6_25Mar19_1847291553519849658@frescano.se, password, Trustly, 5555 4444 3333 1111, 737,...)</span>
+                <span class="method-start">275628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">308779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">314876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Guld, test_7_25Mar19_1847291553519849927@frescano.se, password, Trustly, 5555 4444 3333 1111, 737, 1...)</span>
+                <span class="method-start">329519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">361777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">367929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Familj 2, test_8_25Mar19_1847301553519850143@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)</span>
+                <span class="method-start">383619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">415527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">421674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Familj 3, test_9_25Mar19_1847301553519850371@frescano.se, password, Trustly, 5555 4444 3333 1111, 73...)</span>
+                <span class="method-start">434807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">467063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">473254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_SE(Familj 4, test_10_25Mar19_1847301553519850612@frescano.se, password, Trustly, 5555 4444 3333 1111, 7...)</span>
+                <span class="method-start">487375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">523082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">529210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword</span>
+                <span class="method-start">543368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">545318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">551462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlowSE_RegistrationPage_UncheckBox</span>
+                <span class="method-start">565097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">567747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">573842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlowSE_wrongEmail</span>
+                <span class="method-start">588058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">591137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">597194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlow_Registration_InvalidPassword</span>
+                <span class="method-start">611245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">614195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">620281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlowSE_invalidCardNumber</span>
+                <span class="method-start">634401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">644398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">650503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_InvalidCardExpiry</span>
+                <span class="method-start">664231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">674447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">680506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrialFlow_InvalidCvv</span>
+                <span class="method-start">694207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">705315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">711359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlow_InvalidAccountNumber</span>
+                <span class="method-start">728246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">743567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">749623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlow_Payment_emptyOtp</span>
+                <span class="method-start">764548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">779312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initApplication(chrome)</span>
+                <span class="method-start">785369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FreeTrailFlow_Payment_invalidOtp</span>
+                <span class="method-start">799494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanApplication</span>
+                <span class="method-start">819402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser(chrome)</span>
+                <span class="method-start">825486 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeFramework</span>
+                <span class="method-start">825511 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

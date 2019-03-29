@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+         <listener class-name="common.TestNGCustomReportListener"></listener>
+ </listeners>
+	<test name="Nextory" preserve-order="true">
+
+		<parameter name="browser" value="chrome"></parameter>
+
+		<groups>
+			<run>
+				<include name="FreeTrialFlow_SE"></include>
+				<include name="FreeTrialNegative_SE"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="registrationflows.FreeTrialFlow_AllCountries" />
+		</classes>
+	</test>
+</suite> 

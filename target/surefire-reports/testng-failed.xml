@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="common.TestNGCustomReportListener"/>
+  </listeners>
+  <test name="Nextory(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="FreeTrialFlow_SE"/>
+        <include name="FreeTrialNegative_SE"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="registrationflows.FreeTrialFlow_AllCountries">
+        <methods>
+          <include name="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword"/>
+          <include name="cleanApplication"/>
+          <include name="FilltheExcel"/>
+          <include name="closeBrowser"/>
+          <include name="FreeTrailFlow_Payment_emptyOtp"/>
+          <include name="FreeTrailFlow_InvalidAccountNumber"/>
+          <include name="FreeTrialFlow_SE"/>
+          <include name="initFramework"/>
+          <include name="closeFramework"/>
+          <include name="FreeTrialFlow_InvalidCardExpiry"/>
+          <include name="FreeTrailFlowSE_wrongEmail"/>
+          <include name="FreeTrailFlow_Payment_invalidOtp"/>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="FreeTrailFlowSE_invalidCardNumber"/>
+          <include name="FreeTrailFlow_Registration_InvalidPassword"/>
+          <include name="FreeTrialFlow_InvalidCvv"/>
+          <include name="FreeTrialFlowSE_RegistrationPage_UncheckBox"/>
+        </methods>
+      </class> <!-- registrationflows.FreeTrialFlow_AllCountries -->
+    </classes>
+  </test> <!-- Nextory(failed) -->
+</suite> <!-- Failed suite [Suite] -->
