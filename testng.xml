@@ -6,7 +6,7 @@
  </listeners>
 	<test name="Nextory" preserve-order="true">
 
-		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 
 		<groups>
 			<run>
