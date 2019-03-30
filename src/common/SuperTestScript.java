@@ -92,8 +92,9 @@ public class SuperTestScript implements AutomationConstants{
 			System.setProperty(CHROME_KEY, DRIVER_PATH + CHROME_FILE);
 			driver = new ChromeDriver();
 		}
-		
+
 		//driver.manage().window().maximize();
+
 		driver.get(url);
 		driver.manage().deleteAllCookies();
 		log.info("Timeout:" + timeout);
