@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\narasimha\workspace\nextoryweb\testng.xml</span>
+                    <span>C:\Users\jay\nest\nextorywebpom\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -223,16 +223,18 @@
                   <a name="FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword">
                   </a> <!-- FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword -->
                   <span class="method-name">FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -252,9 +254,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -266,7 +270,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -276,16 +280,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrailFlowSE_invalidCardNumber">
                   </a> <!-- FreeTrailFlowSE_invalidCardNumber -->
                   <span class="method-name">FreeTrailFlowSE_invalidCardNumber</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -305,9 +311,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -319,7 +327,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -329,16 +337,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrailFlowSE_wrongEmail">
                   </a> <!-- FreeTrailFlowSE_wrongEmail -->
                   <span class="method-name">FreeTrailFlowSE_wrongEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -358,9 +368,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -372,7 +384,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -382,16 +394,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrailFlow_InvalidAccountNumber">
                   </a> <!-- FreeTrailFlow_InvalidAccountNumber -->
                   <span class="method-name">FreeTrailFlow_InvalidAccountNumber</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -411,9 +425,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -425,7 +441,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -435,16 +451,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrailFlow_Payment_emptyOtp">
                   </a> <!-- FreeTrailFlow_Payment_emptyOtp -->
                   <span class="method-name">FreeTrailFlow_Payment_emptyOtp</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -464,9 +482,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -478,7 +498,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -488,16 +508,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrailFlow_Payment_invalidOtp">
                   </a> <!-- FreeTrailFlow_Payment_invalidOtp -->
                   <span class="method-name">FreeTrailFlow_Payment_invalidOtp</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -517,9 +539,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -531,7 +555,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -541,16 +565,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrailFlow_Registration_InvalidPassword">
                   </a> <!-- FreeTrailFlow_Registration_InvalidPassword -->
                   <span class="method-name">FreeTrailFlow_Registration_InvalidPassword</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -570,9 +596,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -584,7 +612,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -594,16 +622,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlowSE_RegistrationPage_UncheckBox">
                   </a> <!-- FreeTrialFlowSE_RegistrationPage_UncheckBox -->
                   <span class="method-name">FreeTrialFlowSE_RegistrationPage_UncheckBox</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -623,9 +653,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -637,7 +669,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -647,16 +679,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_InvalidCardExpiry">
                   </a> <!-- FreeTrialFlow_InvalidCardExpiry -->
                   <span class="method-name">FreeTrialFlow_InvalidCardExpiry</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -676,9 +710,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -690,7 +726,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -700,16 +736,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_InvalidCvv">
                   </a> <!-- FreeTrialFlow_InvalidCvv -->
                   <span class="method-name">FreeTrialFlow_InvalidCvv</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -729,9 +767,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -743,7 +783,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -753,16 +793,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -782,9 +824,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -796,7 +840,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -806,16 +850,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -835,9 +881,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -849,7 +897,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -859,16 +907,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -888,9 +938,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -902,7 +954,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -912,16 +964,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -941,9 +995,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -955,7 +1011,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -965,16 +1021,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -994,9 +1052,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -1008,7 +1068,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1018,16 +1078,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -1047,9 +1109,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -1061,7 +1125,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1071,16 +1135,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -1100,9 +1166,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -1114,7 +1182,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1124,16 +1192,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -1153,9 +1223,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -1167,7 +1239,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1177,16 +1249,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -1206,9 +1280,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -1220,7 +1296,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1230,16 +1306,18 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="FreeTrialFlow_SE">
                   </a> <!-- FreeTrialFlow_SE -->
                   <span class="method-name">FreeTrialFlow_SE</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
-System info: host: &apos;DESKTOP-Q6ON4L4&apos;, ip: &apos;10.91.0.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: RemoteWebDriver
+System info: host: &apos;DESKTOP-QIGAD4B&apos;, ip: &apos;192.168.230.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at common.SuperTestScript.initApplication(SuperTestScript.java:96)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10444
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at common.SuperTestScript.initApplication(SuperTestScript.java:82)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:8251
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -1259,9 +1337,11 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0
 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
 	at okhttp3.RealCall.execute(RealCall.java:77)
 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 40 more
+	... 42 more
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -1273,7 +1353,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.Socket.connect(Socket.java:589)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 60 more
+	... 64 more
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -1283,7 +1363,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\narasimha\workspace\nextoryweb\testng.xml</span>
+            <span class="header-content">C:\Users\jay\nest\nextorywebpom\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -1294,7 +1374,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
     &lt;listener class-name=&quot;common.TestNGCustomReportListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;Nextory&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;FreeTrialFlow_SE&quot;/&gt;
@@ -1444,7 +1524,7 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'FreeTrialFlow_SE')
+data.setCell(0, 1, 'FreeTrailFlow_InvalidAccountNumber')
 data.setCell(0, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
@@ -1452,15 +1532,15 @@ data.setCell(1, 1, 'FreeTrialFlow_SE')
 data.setCell(1, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'FreeTrialFlow_SE')
+data.setCell(2, 1, 'FreeTrialFlowSE_RegistrationPage_UncheckBox')
 data.setCell(2, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword')
+data.setCell(3, 1, 'FreeTrialFlow_SE')
 data.setCell(3, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'FreeTrailFlow_Payment_invalidOtp')
+data.setCell(4, 1, 'FreeTrialFlow_InvalidCardExpiry')
 data.setCell(4, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
@@ -1468,31 +1548,31 @@ data.setCell(5, 1, 'FreeTrialFlow_SE')
 data.setCell(5, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'FreeTrailFlowSE_wrongEmail')
+data.setCell(6, 1, 'FreeTrialFlow_SE')
 data.setCell(6, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'FreeTrialFlow_InvalidCardExpiry')
+data.setCell(7, 1, 'FreeTrialFlow_SE')
 data.setCell(7, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'FreeTrailFlow_Payment_emptyOtp')
+data.setCell(8, 1, 'FreeTrailFlow_Registration_InvalidPassword')
 data.setCell(8, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'FreeTrailFlowSE_invalidCardNumber')
+data.setCell(9, 1, 'FreeTrailFlow_Payment_invalidOtp')
 data.setCell(9, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(9, 3, 0);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'FreeTrialFlow_SE')
+data.setCell(10, 1, 'FreeTrailFlow_Payment_emptyOtp')
 data.setCell(10, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'FreeTrialFlow_SE')
+data.setCell(11, 1, 'FreeTrailFlowSE_RegistrationPage_EmptyEmailPassword')
 data.setCell(11, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'FreeTrialFlow_SE')
+data.setCell(12, 1, 'FreeTrialFlow_InvalidCvv')
 data.setCell(12, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
@@ -1500,27 +1580,27 @@ data.setCell(13, 1, 'FreeTrialFlow_SE')
 data.setCell(13, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(13, 3, 0);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'FreeTrailFlow_InvalidAccountNumber')
+data.setCell(14, 1, 'FreeTrialFlow_SE')
 data.setCell(14, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(14, 3, 0);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'FreeTrialFlow_InvalidCvv')
+data.setCell(15, 1, 'FreeTrialFlow_SE')
 data.setCell(15, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(15, 3, 0);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'FreeTrialFlowSE_RegistrationPage_UncheckBox')
+data.setCell(16, 1, 'FreeTrialFlow_SE')
 data.setCell(16, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(16, 3, 0);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'FreeTrialFlow_SE')
+data.setCell(17, 1, 'FreeTrailFlowSE_wrongEmail')
 data.setCell(17, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(17, 3, 0);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'FreeTrailFlow_Registration_InvalidPassword')
+data.setCell(18, 1, 'FreeTrialFlow_SE')
 data.setCell(18, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(18, 3, 0);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'FreeTrialFlow_SE')
+data.setCell(19, 1, 'FreeTrailFlowSE_invalidCardNumber')
 data.setCell(19, 2, 'registrationflows.FreeTrialFlow_AllCountries')
 data.setCell(19, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
@@ -1560,17 +1640,17 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
                 <span class="method-name">initFramework</span>
-                <span class="method-start">4244 ms</span>
+                <span class="method-start">4833 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">initBrowser(chrome)</span>
-                <span class="method-start">4252 ms</span>
+                <span class="method-name">initBrowser(firefox)</span>
+                <span class="method-start">4838 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">initApplication(chrome)</span>
-                <span class="method-start">16452 ms</span>
+                <span class="method-name">initApplication(firefox)</span>
+                <span class="method-start">14397 ms</span>
               </div> <!-- configuration-method before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

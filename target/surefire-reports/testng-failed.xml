@@ -5,7 +5,7 @@
     <listener class-name="common.TestNGCustomReportListener"/>
   </listeners>
   <test name="Nextory(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <groups>
       <run>
         <include name="FreeTrialFlow_SE"/>
